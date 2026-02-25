@@ -1,0 +1,10 @@
+# Ignore the entire build directory
+build/
+
+# Ignore compiled Python binaries
+__pycache__/
+*.pyc
+*.pyd
+
+# Ignore VS Code local settings
+.vscode/cmake-kits.json
