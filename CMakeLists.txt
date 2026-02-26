@@ -11,6 +11,6 @@ set(pybind11_DIR "C:/Users/laksh/AppData/Roaming/Python/Python312/site-packages/
 
 find_package(pybind11 REQUIRED)
 
-pybind11_add_module(simcore main.cpp)
+add_subdirectory(src)
 
 
